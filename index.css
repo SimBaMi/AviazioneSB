@@ -231,7 +231,7 @@ p{line-height: 30px; font-weight: 500;}
   width: 100%;
   align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.0), rgba(0,0,0,0.3)),
-  url('download_2.jpg');
+  url('download_2.jpg') center center;
   background-size: cover;
 }
 
@@ -310,7 +310,7 @@ p{line-height: 30px; font-weight: 500;}
   display: flex;
   height: auto;
   padding: 100px 0;
-  background: linear-gradient(0deg, rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+  background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
   url('airbus_a380.jpeg') center center /* ! per video scrivere no-repeat se non si vuole ripeterlo */;
   background-size: cover;
 }
@@ -333,7 +333,7 @@ p{line-height: 30px; font-weight: 500;}
   .bg-cover{
     flex-wrap: wrap;
     height: auto;
-    background: linear-gradient(0deg, rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url('airbus_a380_verticale.jpg') center center;
     background-size: cover;
   }
